@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New animal Project</title>
+    <link rel="icon" type="image/x-icon" href="assets/Untitled.jpg">
+    <link rel="stylesheet" href="css/pet-form.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <header>
+            <div class="logo">
+                <img src="Assets/volunteer.png" alt="volunteer">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="HumanForm.html">Human</a></li>
+                    <li><a href="EnviroForm.html">Environment</a></li>
+                    <li><a href="AnimalForm.html" class="active">Animals</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="form-container">
+        <form action="submit_Aform.php" method="POST" enctype="multipart/form-data">
+
+            <h1 id="topicid">Add New Project</h1>
+            <label for="title">Animal Type:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <div class="gen">
+                <input type="radio" id="gender" name="gender" value="Male" required>Male
+                <input type="radio" id="gender" name="gender" value="Female" required>Female
+            </div>
+
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" required>
+            
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="name">Owner's Name:</label>
+            <input type="name" id="time" name="name" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="con">Condition:</label>
+            <textarea id="con" name="con" rows="4" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contact">Contact number:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="picture">Picture (Only one picture):</label>
+            <input type="file" id="picture" name="picture" accept="image/*" required>
+
+            <a href="Saved.html"><button type="submit">Save</button></a>
+
+        </form>
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <img src="Assets/volunteer.png" alt="Hands On Heart Logo">
+            </div>
+
+            <div class="footer-links">
+                <a href="index.php">Human</a>
+                <a href="Environment.php">Environment</a>
+                <a href="Animal.php">Animals</a>
+            </div>
+
+            <div class="footer-contact">
+                <p style="font-size: 23px; font-weight: bold;">Contact Us</p>
+                <p><img src="Assets/email.png" alt="Email Icon"> CINECWebDev@gamil.com</p>
+                <p><img src="Assets/phone.png" alt="Phone Icon"> 077-1245678</p>
+                <p><img src="Assets/location.png" alt="Location Icon"> CINEC Campus, Malabe.</p>
+            </div>
+
+        </div>
+        
+    </footer>
+        <div class="footer-bottom">
+            <p>© 2024 | Volunteer | All rights reserved.</p>
+        </div>
+
+
+
+    </div>
+
+    
+
+</body>
+
+</html>

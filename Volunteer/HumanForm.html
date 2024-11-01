@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Human Project</title>
+    <link rel="icon" type="image/x-icon" href="assets/Untitled.jpg">
+    <link rel="stylesheet" href="css/Form-eh.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <header>
+
+            <div class="logo">
+
+                <img src="Assets/volunteer.png" alt="HandsOnHeart Logo">
+
+            </div>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="HumanForm.html" class="active">Human</a></li>
+                    <li><a href="EnviroForm.html">Environment</a></li>
+                    <li><a href="AnimalForm.html">Animals</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <div class="form-container">
+
+        <form action="submit_Hform.php" method="POST" enctype="multipart/form-data">
+
+            <h1 id="topicid">Add New Project</h1>
+            <label for="title">Project Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="organization">Organization/ Organizer:</label>
+            <input type="text" id="organization" name="organization" required>
+
+            <label for="website">Official website of Organization:</label>
+            <input type="url" id="website" name="website" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <label for="venue">Venue:</label>
+            <input type="text" id="venue" name="venue" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contact">Contact number:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="picture">Picture (Only one picture):</label>
+            <input type="file" id="picture" name="picture" accept="image/*" required>
+
+            <a href="Saved.php"><button type="submit">Save</button></a>
+
+        </form>
+
+    </div>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <img src="Assets/volunteer.png" alt="Hands On Heart Logo">
+                
+            </div>
+
+            <div class="footer-links">
+
+                <a href="index.php">Human</a>
+                <a href="Environment.php">Environment</a>
+                <a href="Animal.php">Animals</a>
+
+            </div>
+
+            <div class="footer-contact">
+
+                <p style="font-size: 23px; font-weight: bold;">Contact Us</p>
+                <p><img src="Assets/email.png" alt="Email Icon"> CINECWebDev@gamil.com</p>
+                <p><img src="Assets/phone.png" alt="Phone Icon"> 077-1245678</p>
+                <p><img src="Assets/location.png" alt="Location Icon"> CINEC Campus, Malabe.</p>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <div class="footer-bottom">
+        <p>© 2024 | Volunteer | All rights reserved.</p>
+    </div>
+
+
+
+    </div>
+
+    
+
+</body>
+
+</html>

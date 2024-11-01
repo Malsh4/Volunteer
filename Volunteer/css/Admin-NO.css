@@ -1,0 +1,151 @@
+:root{
+    overflow-x: hidden;
+    margin: 0px 0px;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#dbe6d3;
+    padding: 5px 20px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .menu li {
+    margin-right: 20px;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #588157;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    background-color: #013418;
+}
+nav .menu li a.active {
+    background-color: #013418;
+    color: white;
+}
+.footer {
+    background-color: #588157;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+
+
+.footer-links a {
+    margin: 5px 0;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    line-height: 30px;
+}
+
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-contact img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    background-color: #013418;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 0%;
+}
+
+.footer-bottom p {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content{
+    background-color: #588157;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.content h1{
+    color: white;
+    font-size: 300%;
+}
+.content img{
+    width: 40%;
+}
+.content h2{
+    color: white;
+    font-size: 100%;
+}
+nav .menu button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #013418;
+    font-weight: bold;
+    border: none;
+}
+nav .menu button:hover {
+    background-color: #588157;
+    border: black 2px solid;
+}
